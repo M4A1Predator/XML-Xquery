@@ -1,0 +1,62 @@
+<?xml version='1.0'?>
+<projectList>
+ <project num='p192'>
+  <title>Fulltext Search</title>
+  <review grade='S'>Good</review>
+  <advisor>
+   <fn>Andy</fn><ln>Bryan</ln>
+  </advisor>
+  <members>
+   <student code='z11'>
+    <fn>Carey</fn><ln>Davis</ln>
+   </student>
+   <student code='z53'>
+    <fn>Yale</fn><ln>Zolo</ln>
+   </student>
+  </members>
+ </project>
+ <project num='q376'>
+  <title>Data Modeling</title>
+  <advisor>
+   <fn>Will</fn><ln>Zen</ln>
+  </advisor>
+  <members>
+   <student code='z13'>
+    <fn>Inch</fn><ln>James</ln>
+   </student>
+   <student code='z55'>
+    <fn>Sam</fn><ln>Times</ln>
+   </student>
+  </members>
+ </project>
+<project num='r283'>
+  <title>Warehouse</title>
+  <review grade='I'>Poor</review>
+  <advisor>
+   <fn>Andy</fn><ln>Bryan</ln>
+  </advisor>
+  <advisor>
+   <fn>Jack</fn><ln>Vines</ln>
+  </advisor>
+  <student code='z14'>
+   <fn>Edward</fn><ln>Ferry</ln>
+  </student>
+ </project>
+ <project num='o405'>
+  <title>Indexing</title>
+  <advisor>
+   <fn>Jack</fn><ln>Bryan</ln>
+  </advisor>
+  <members>
+   <student code='z12'>
+    <fn>Que</fn><ln>Reading</ln>
+   </student>
+   <student code='z54'>
+    <fn>Magic</fn><ln>Niles</ln>
+   </student>
+   <student code='z76'>
+    <fn>George</fn><ln>Heat</ln>
+   </student>
+  </members>
+ </project>
+</projectList>
