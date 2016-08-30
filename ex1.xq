@@ -11,8 +11,15 @@ then <result>{$r/members/student/self::element()}</result>
 else <result>{$r/student/self::element()}</result>
 :)
 
+
+(:
 let $a := 0
 for $r in doc("project.xml")/projectList/project
 return if ((count($r/advisor) > $a))
 then let $a := (count($r/advisor)
 else <result></result>
+:)
+
+for $r in doc('rows.xml')
+/response/row/row[percent>10]
+return <res>{$r}</res>
